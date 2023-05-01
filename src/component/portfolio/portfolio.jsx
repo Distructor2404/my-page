@@ -8,6 +8,7 @@ import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 import IMG7 from '../../assets/portfolio7.jpg'
+import IMG8 from '../../assets/portfolio8.png'
 
 
 
@@ -20,6 +21,17 @@ const portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className='container portfolio__container'>
+      <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+              <img src={IMG8} alt='' />
+          </div>
+          <h3>Car Racing Game Using UNITY 3d</h3>
+          <div className="portfolio__item-cta">
+          
+          <a href="https://github.com/Distructor2404/Car_Racing_Game" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+
       <article className='portfolio__item'>
           <div className="portfolio__item-image">
               <img src={IMG7} alt='' />
